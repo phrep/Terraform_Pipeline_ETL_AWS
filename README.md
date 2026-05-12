@@ -11,7 +11,7 @@ Este projeto cria uma pipeline ETL utilizando:
 * AWS IAM
 * Terraform
 * PySpark
-
+* Athena
 O objetivo do projeto é:
 
 1. Armazenar arquivos CSV no S3
@@ -375,7 +375,6 @@ path = "s3://xxxxx-source-data-bucket/"
 
 * Particionamento de dados
 * Parquet ao invés de CSV
-* Athena
 * Lake Formation
 * CI/CD com GitHub Actions
 * Terraform Modules
@@ -394,6 +393,7 @@ path = "s3://xxxxx-source-data-bucket/"
 * AWS Glue Catalog
 * AWS Glue Crawler
 * CloudWatch
+* Athena
 
 ---
 
