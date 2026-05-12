@@ -1,0 +1,30 @@
+
+# Terraform
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.tfstate
+.terraform.tfstate.backup
+.terraform/
+terraform.provider-aws_v6
+terraform.tfvars
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+.terraform.lock.hcl
+
+# Python
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# IntelliJ
+.idea/
+
+# Windows
+Thumbs.db
+Desktop.ini
